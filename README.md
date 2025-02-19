@@ -7,7 +7,7 @@ As this use the AWS SDK, credentials should be set beforehand on env variables.
 ## Usage
 
 ```yml
-- uses: luisgreen/amplify_deployment@main
+- uses: sofus-nl/amplify_deployment@main
   with:
     # Amplify Application ID
     # required: true
@@ -30,7 +30,7 @@ As this use the AWS SDK, credentials should be set beforehand on env variables.
 ## Sample
 
 ```yml
-- uses: luisgreen/amplify_deployment@main
+- uses: sofus-nl/amplify_deployment@main
   with:
     appId: 'asd8adsjasd9'
     branchName: 'master'
